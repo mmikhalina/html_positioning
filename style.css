@@ -1,0 +1,152 @@
+body{
+	background-color: lightblue;
+}
+h1 {
+	text-align: center;
+}
+h2{
+	margin-top: 200px;
+	margin-left: 50px;
+}
+.field {
+	width: 400px;
+	height: 400px;
+	margin-left: 50px;
+	margin-top: 50px;
+	border:1px solid black;
+	position: relative;
+}
+.block1 {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	position: absolute;
+	left: 95px;
+	bottom: 0;
+}
+.krysha1{
+	z-index:2;
+	width: 0;
+	height: 0;
+	background:transparent;
+	position: absolute;
+	left:95px;
+	top:0px;
+	border-top: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid black;
+	border-left:100px solid transparent;
+}
+.field2 {
+	width: 400px;
+	height: 400px;
+	margin-left: 50px;
+	margin-top: 50px;
+	border:1px solid black;
+	position: static;
+}
+.block2 {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	position: static;
+	margin-top: 200px; 
+	margin-left: 95px;
+	}
+.krysha2{
+	z-index:2;
+	position: static;
+    margin-left: 95px;
+    margin-top: -400px;
+    width: 0px;
+    border-style: solid;
+    border-width: 100px 100px 100px 100px;
+    border-color: transparent transparent yellow transparent;
+}
+.field3 {
+	width: 400px;
+	height: 400px;
+	left: 50px;
+	top: 0px;
+	border:1px solid black;
+	position: relative;
+}
+.block3 {
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	position: relative;
+	left:95px;
+	top: 200px;
+}
+.krysha3{
+	z-index:2;
+	position: relative;
+    left: 95px;
+    top: -200px;
+    width: 0px;
+    border-style: solid;
+    border-width: 100px 100px 100px 100px;
+    border-color: transparent transparent black transparent;
+}
+.field4 {
+	width: 400px;
+	height: 400px;
+	left: 50px;
+	top: 50px;
+	border:1px solid black;
+	position: sticky;
+  	top: 0;
+}
+.block4 {
+	width: 200px;
+	height: 200px;
+	background-color: grey;
+	position: -webkit-sticky;
+	position: sticky;
+	left:150px;
+	top:600px;
+
+	}
+.krysha4{
+	width: 0px;
+	border-style: solid;
+    border-width: 100px 100px 100px 100px;
+    border-color: transparent transparent white transparent;
+    position: -webkit-sticky;
+  	position: sticky;
+  	
+    left:150px;
+    bottom:600px;
+}
+.field5 {
+	font-size: 50px;
+	width: 400px;
+	height: 400px;
+	left: 1200px;
+	top: 340px;
+	border:1px solid black;
+	position: fixed;
+
+}
+.block5 {
+	width: 200px;
+	height: 200px;
+	background-color: purple;
+	position: fixed;
+	left:1295px;
+	top:540px;
+	}
+.krysha5{
+	width: 0px;
+    border-style: solid;
+    border-width: 100px 100px 100px 100px;
+    border-color: transparent transparent white transparent;
+    position:fixed;
+    left: 1295px;
+    top: 340px;
+}
+.footer{
+	height: 500px;
+	width: 100%;
+}
